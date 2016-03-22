@@ -27,10 +27,10 @@
 /*z-index ensures it will always be ontop of any layer no matter which slide*/
 /*width 100% so it scrolls across the whole page*/
 
-.navigation {
+.nav {
 	padding: 0;
 	margin: 0;
-	background: blue;
+	background: white;
 	position: fixed;
 	top: 0;
 	z-index: 999;
@@ -42,12 +42,15 @@
 			padding: 5px 10px;
 		}
 
-	/*text decoration here gets rid of the underline*/
+	/*text decoration here gets rid of the underline and makes bigger*/
 
 			a {
-				color: #e1e1e1;
+				color: black;
+				font-size: 18px;
 				text-decoration: none;
 			}
+
+			/*hover and active not working at the moment*/
 
 				a:hover {
 					color: lighten(#e1e1e1,20%);
