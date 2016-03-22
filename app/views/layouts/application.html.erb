@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ParallaxDesign</title>
+    <%= csrf_meta_tags %>
+    <%= action_cable_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => 'reload' %>
+      <script type="text/javascript" src='assets/jquery.stellar.min.js'></script>
+      <script type="text/javascript" src='assets/jquery.easing.min.js'></script>
+      <script type="text/javascript" src='assets/jquery.waypoints.js'></script>
+
+
+
+    </head>
+
+  <body>
+
+     <%= yield %>
+
+  </body>
+</html>
