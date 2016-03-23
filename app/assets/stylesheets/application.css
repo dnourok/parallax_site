@@ -65,12 +65,13 @@
 	color: white;
 }
 
+
 .slide {
 	background-attachment: fixed;
 	width: 100%;
 	height: 100%;
 	position: relative;
-	padding: 400px;
+	padding: 30px;
 }
 
 .button-image {
@@ -108,11 +109,17 @@
 }
 
 #slide1{
-	background-color: pink;
+	background-image: url("slideBackground.jpeg");
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	z-index: 9;
 }
 
 #slide2{
-	background-color: red;
+	background: white;
+	
 }
 
 #slide3{
@@ -120,6 +127,17 @@
 }
 
 #slide4{
+background: black;
+}
+
+.logo-contacts {
+	position: relative;
+	left: 25%;
+}
+
+.git-logo{
+	width: 150px;
+  height: auto;
 }
 
 
