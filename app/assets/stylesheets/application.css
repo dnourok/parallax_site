@@ -61,16 +61,16 @@
 		}
 
 .main {
-	margin-top: 30px;
+	margin-top: 50px;
 	color: white;
 }
 
 .slide {
-	background: fixed;
+	background-attachment: fixed;
 	width: 100%;
 	height: 100%;
 	position: relative;
-	padding: 30px;
+	padding: 400px;
 }
 
 .button-image {
@@ -81,9 +81,9 @@
 	bottom: 5px;
 	left: 50%;
 	margin-left: -25px;
-	background-image: url("assets/arrow.png");
+	/*background-image: url("assets/arrow.png");
 	background-size: 50px 50px;
-	background: no-repeat;
+	background: no-repeat;*/
 }
 
 .photo {
@@ -93,4 +93,33 @@
 }
 
 .image-wrapper {
+	float: right;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	padding: 30px;
+
 }
+
+.about-me-text {
+	float: right;
+	color: white;
+	font-size: 20px;
+}
+
+#slide1{
+	background-color: pink;
+}
+
+#slide2{
+	background-color: red;
+}
+
+#slide3{
+	background-color: orange;
+}
+
+#slide4{
+}
+
+
