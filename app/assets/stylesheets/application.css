@@ -24,13 +24,13 @@
 /*makes sure this fills the whole page and no unecessary padding on our elements*/
 
 /*navigations position is fixed so it always stays at the top*/
-/*z-index ensures it will always be ontop of any layer no matter which slide*/
+/*z-index ensures it will always be on top of any layer no matter which slide*/
 /*width 100% so it scrolls across the whole page*/
 
 .nav {
 	padding: 0;
 	margin: 0;
-	background-color: rgba(255,255,255,0.5);
+	background-color: rgba(0, 0, 0, 0.5);
 	position: fixed;
 	top: 0;
 	z-index: 999;
@@ -84,4 +84,13 @@
 	background-image: url("assets/arrow.png");
 	background-size: 50px 50px;
 	background: no-repeat;
+}
+
+.photo {
+	border-width: 15px;
+	border-style: solid;
+	border-color: rgba(0, 0, 0, 0.5);
+}
+
+.image-wrapper {
 }
