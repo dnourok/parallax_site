@@ -132,7 +132,7 @@ background: black;
 
 .logo-contacts {
 	position: relative;
-	left: 25%;
+	left: 30%;
 }
 
 .git-logo{
@@ -140,4 +140,9 @@ background: black;
   height: auto;
 }
 
+.linkedin-logo {
+	width: 225px;
+  height: auto;
+  padding-left: 100px;
+}
 
