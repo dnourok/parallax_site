@@ -90,13 +90,20 @@
 
 .photo {
 	border-width: 15px;
-	border-style: solid;
+	border-style: double;
 /*	box-shadow: 0 0 10px rgba(0, 0, 0, .8);*/
-	border-color: rgba(0, 0, 0, 0.5);
-	width: 600px;
+	border-color: black;
+	width: 400px;
   height: auto;
   position: relative;
   left: 0%;
+}
+
+.computer {
+	width: 600px;
+  height: auto;
+  position: relative;
+  right: 0%;
 }
 
 .image-wrapper {
@@ -112,21 +119,24 @@
 }
 
 #slide1{
-	background: #e63900;
-	
-}
-
-#slide2{
 	background-image: url("slideBackground.jpeg");
 	-webkit-background-size: cover;
 	-o-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	z-index: 9;	
+	
+}
+
+#slide2{
+	background-color: #155049;
+	color: white;
+	
 }
 
 #slide3{
-	background-color: #e63900;
+background-image: url("orange.jpeg");
+	
 }
 
 #slide4{
@@ -135,7 +145,7 @@ background: black;
 
 .logo-contacts {
 	position: relative;
-	left: 30%;
+	left: 35%;
 }
 
 .git-logo{
@@ -147,5 +157,18 @@ background: black;
 	width: 225px;
   height: auto;
   padding-left: 100px;
+}
+
+.projects {
+	display: block;
+}
+
+
+.midways {
+	border-color: black;
+	border-width: 5px;
+	width: 600px;
+  height: auto;
+  border-style: solid;
 }
 
