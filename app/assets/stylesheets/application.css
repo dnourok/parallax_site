@@ -25,6 +25,12 @@
 h1 {
 	position: relative;
 	left: 60%;
+	font-family: 'Poiret One', cursive;
+}
+
+h2 {
+	color: white;
+	font-family: 'Poiret One', cursive;
 }
 /*makes sure this fills the whole page and no unecessary padding on our elements*/
 
@@ -51,8 +57,9 @@ h1 {
 
 			a {
 				color: white;
-				font-size: 18px;
+				font-size: 20px;
 				text-decoration: none;
+				font-family: 'Poiret One', cursive;
 			}
 
 			/*hover and active not working at the moment*/
@@ -118,6 +125,7 @@ h1 {
 	float: right;
 	color: white;
 	font-size: 20px;
+	font-family: 'Poiret One', cursive;
 }
 
 #slide1{
@@ -131,14 +139,15 @@ h1 {
 }
 
 #slide2{
-	background-image: url("orange.jpeg");
-	background-size: cover;
+	background-image: url("tiel.jpeg");
 	color: white;
-	
 }
 
 #slide3{
-	background-image: url("tiel.jpeg");
+	background-image: url("orange-two.jpeg");
+	background-size: cover;
+	color: white;
+	font-family: 'Poiret One', cursive;
 	
 }
 
@@ -174,7 +183,7 @@ background: black;
 
 
 .midways {
-	border-radius: 20%;
+	/*border-radius: 20%;*/
 	border-color: white;
 	border-width: 5px;
 	width: 600px;
