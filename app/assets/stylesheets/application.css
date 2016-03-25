@@ -22,6 +22,10 @@
   overflow-x: hidden;
 }
 
+h1 {
+	position: relative;
+	left: 60%;
+}
 /*makes sure this fills the whole page and no unecessary padding on our elements*/
 
 /*navigations position is fixed so it always stays at the top*/
@@ -62,7 +66,6 @@
 		}
 
 .main {
-	margin-top: 50px;
 	color: white;
 }
 
@@ -107,9 +110,8 @@
 }
 
 .image-wrapper {
-	left: 60%;
 	position: relative;
-
+	right: 10%;
 }
 
 .about-me-text {
@@ -125,17 +127,18 @@
 	-moz-background-size: cover;
 	background-size: cover;
 	z-index: 9;	
-	
+	overflow-x: hidden;	
 }
 
 #slide2{
-	background-color: #155049;
+	background-image: url("orange.jpeg");
+	background-size: cover;
 	color: white;
 	
 }
 
 #slide3{
-background-image: url("orange.jpeg");
+	background-image: url("tiel.jpeg");
 	
 }
 
@@ -171,7 +174,8 @@ background: black;
 
 
 .midways {
-	border-color: black;
+	border-radius: 20%;
+	border-color: white;
 	border-width: 5px;
 	width: 600px;
   height: auto;
