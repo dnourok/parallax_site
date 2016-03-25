@@ -145,7 +145,7 @@ background: black;
 
 .logo-contacts {
 	position: relative;
-	left: 35%;
+	left: 28%;
 }
 
 .git-logo{
@@ -155,6 +155,12 @@ background: black;
 
 .linkedin-logo {
 	width: 225px;
+  height: auto;
+  padding-left: 100px;
+}
+
+.email-logo {
+	width: 250px;
   height: auto;
   padding-left: 100px;
 }
