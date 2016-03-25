@@ -22,10 +22,18 @@
   overflow-x: hidden;
 }
 
-h1 {
+
+.my-name {
 	position: relative;
-	left: 60%;
+	left: 50%;
 	font-family: 'Poiret One', cursive;
+	top: 70px;
+}
+
+.occupation {
+	position: relative;
+	left: 50%;
+	top: 50px;
 }
 
 h2 {
@@ -37,6 +45,7 @@ h2 {
 /*navigations position is fixed so it always stays at the top*/
 /*z-index ensures it will always be on top of any layer no matter which slide*/
 /*width 100% so it scrolls across the whole page*/
+
 
 .nav {
 	padding: 0;
@@ -110,22 +119,29 @@ h2 {
 }
 
 .computer {
+	position: relative;
 	width: 600px;
   height: auto;
-  position: relative;
-  right: 0%;
+  right: 10%;
+  top: -110px;
 }
 
-.image-wrapper {
+/*.image-wrapper {
 	position: relative;
 	right: 10%;
-}
+	top: 0px;
+	width: 500px;
+}*/
 
 .about-me-text {
-	float: right;
+	position: relative;
+	left: 50%;
+	top: 90px;
 	color: white;
 	font-size: 20px;
+	width: 800px;
 	font-family: 'Poiret One', cursive;
+	padding-right: 150px;
 }
 
 #slide1{
@@ -183,11 +199,14 @@ background: black;
 
 
 .midways {
-	/*border-radius: 20%;*/
+	border-radius: 50%;
 	border-color: white;
 	border-width: 5px;
-	width: 600px;
-  height: auto;
+	width: 500px;
+  height: 400px;
   border-style: solid;
 }
 
+.midways-description{
+	width: 500px;
+}
