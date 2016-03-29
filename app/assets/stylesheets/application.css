@@ -212,12 +212,37 @@ background: black;
 
 
 .midways {
-	width: auto;
-  height: 400px;
+	width: 350px;
+  height: auto;
+  position: relative;
+  left: 5%;
+  top: 60px;
+  /*position: relative;
+  display: inline;
+  vertical-align: middle;*/  
+}
+
+.memory {
+	width: 350px;
+  height: auto;
   position: relative;
   left: 10%;
+  top: 60px;
+}
 
-  
+.quiz {
+	width: 350px;
+  height: auto;
+  position: relative;
+  left: 15%;
+  top: 60px;
+}
+
+.container{
+/*position: relative;*/
+  display: inline;
+  vertical-align: middle; 
+  padding: 3px;
 }
 
 .iphone {
@@ -231,11 +256,16 @@ background: black;
 
 }
 
-.midways-description{
-	width: 500px;
+.description-containter{
+	/*width: 500px;*/
 	position: relative;
-	left: 60%;
-	top: 120px;
+	display: inline;
+	/*left: 60%;
+	top: 120px;*/
+}
+
+.description{
+	width: 300px;
 }
 
 .title {
