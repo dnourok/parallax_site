@@ -21,7 +21,7 @@ jQuery(document).ready(function ($) {
     //Cache some variables
     var links = $('.nav-pills').find('li');
     slide = $('.slide');
-    button = $('.button');
+    button = $('.button-image');
     mywindow = $(window);
     htmlbody = $('html,body');
     //Setup waypoints plugin
