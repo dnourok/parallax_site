@@ -73,14 +73,14 @@ h2 {
 				font-family: 'Poiret One', cursive;
 			}
 
-			/*hover and active not working at the moment*/
+			hover and active not working at the moment
 
 				a:hover {
 					color: lighten(#e1e1e1,20%);
 			}
 	
 		.active {
-			background-color: lighten(blue, 20%);
+			background-color: lighten(red, 20%) ;
 		}
 
 .main {
