@@ -75,17 +75,17 @@ h2 {
 			}
 
 
-				 a:hover {
+				 /*a:hover {
 					color: lighten(#e1e1e1,20%);
 			}
-	
-		.nav-pills .active {
+	/**/
+		/*.active {
 			background-color: lighten(red, 20%) ;
-		}
+		}*/
 
-.main {
+/*.main {
 	color: white;
-}
+}*/
 
 
 .slide {
@@ -98,36 +98,36 @@ h2 {
 }
 
 .button-image {
-	display: block;
+	/*display: block;*/
 	position: absolute;
 	width: 50px;
 	height: 50px;
-	bottom: 10px;
+	bottom: 30px;
 	left: 50%;
 	margin-left: -25px;
 	/*background-image: url("assets/arrow.png");
 	background-size: 50px 50px;
 	background: no-repeat;*/
 }
-
+/*
 .photo {
 	border-width: 15px;
 	border-style: double;
-/*	box-shadow: 0 0 10px rgba(0, 0, 0, .8);*/
+	box-shadow: 0 0 10px rgba(0, 0, 0, .8);
 	border-color: black;
 	width: 400px;
   height: auto;
   position: relative;
   left: 0%;
-}
+}*/
 
 .computer {
 	position: relative;
 	width: 600px;
   height: auto;
   right: 0%;
-  top: -380px;
-}
+  top: -375px;
+ }
 
 /*.image-wrapper {
 	position: relative;
@@ -155,7 +155,7 @@ h2 {
 	background-size: cover;
 	z-index: 9;	
 	overflow-x: hidden;
-	/*height: 800px;	*/
+	/*background: fixed;*/
 }
 
 #slide2{
@@ -246,6 +246,8 @@ background: black;
   padding: 3px;
 }
 
+.row{
+}
 .iphone {
 	width: auto;
 	height: 450px;
