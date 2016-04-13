@@ -13,3 +13,10 @@ module ParallaxDesign
     # -- all .rb files in that directory are automatically loaded.
   end
 end
+
+
+config.cache_classes = true
+config.serve_static_assets = true
+config.assets.compile = true
+config.assets.digest = true
+
